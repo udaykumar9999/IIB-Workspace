@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmMQGet.msgnode="ComIbmMQGet.msgnode" xmlns:ComIbmMQHeader.msgnode="ComIbmMQHeader.msgnode" xmlns:ComIbmMQInput.msgnode="ComIbmMQInput.msgnode" xmlns:ComIbmMQOutput.msgnode="ComIbmMQOutput.msgnode" xmlns:ComIbmMQReply.msgnode="ComIbmMQReply.msgnode" xmlns:ComIbmPublication.msgnode="ComIbmPublication.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility"
+    nsURI="tttfg.msgflow" nsPrefix="tttfg.msgflow">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" nodeLayoutStyle="RECTANGLE">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <translation xmi:type="utility:TranslatableString" key="tttfg" bundleName="tttfg" pluginId="app1"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/app1/icons/full/obj16/tttfg.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/app1/icons/full/obj30/tttfg.gif"/>
+    <composition>
+      <nodes xmi:type="ComIbmMQReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="62,144">
+        <translation xmi:type="utility:ConstantString" string="MQ Reply"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="317,19">
+        <translation xmi:type="utility:ConstantString" string="MQ Input"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="385,133">
+        <translation xmi:type="utility:ConstantString" string="MQ Output"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQGet.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="183,252">
+        <translation xmi:type="utility:ConstantString" string="MQ Get"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQHeader.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="566,59">
+        <translation xmi:type="utility:ConstantString" string="MQ Header"/>
+      </nodes>
+      <nodes xmi:type="ComIbmPublication.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="85,50">
+        <translation xmi:type="utility:ConstantString" string="Publication"/>
+      </nodes>
+    </composition>
+    <propertyOrganizer/>
+    <stickyBoard/>
+  </eClassifiers>
+</ecore:EPackage>

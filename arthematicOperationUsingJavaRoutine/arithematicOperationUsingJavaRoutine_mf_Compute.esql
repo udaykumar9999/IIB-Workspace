@@ -1,0 +1,15 @@
+
+
+CREATE COMPUTE MODULE arithematicOperationUsingJavaRoutine_mf_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE param1, param2 INTEGER;
+		--SET OutputRoot.XMLNSC.Data.Result
+		CALL JavaRoutine(param1,param2);
+		
+		RETURN TRUE;
+	END;
+CREATE PROCEDURE JavaRoutine(IN param1 INTEGER, IN param2 INTEGER)
+LANGUAGE JAVA
+EXTERNAL NAME "com.Arithematic.Addition.add";
+END MODULE;
