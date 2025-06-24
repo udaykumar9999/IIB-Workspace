@@ -4,9 +4,7 @@ CREATE COMPUTE MODULE aggms1_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		DECLARE var12 REFERENCE TO InputRoot.ComIbmAggregateReplyBody.f1.XMLNSC.st1;
-		 
 		 DECLARE var13 REFERENCE TO InputRoot.ComIbmAggregateReplyBody.f2.XMLNSC.st2;
-		 
 	    set OutputRoot.XMLNSC.student.st1.id=var12.id;
 	    set OutputRoot.XMLNSC.student.st1.name=var12.name;
 	    set OutputRoot.XMLNSC.student.st2.id=var13.id;
